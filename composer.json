@@ -1,12 +1,15 @@
 {
-    "name": "blade-organization/blade-heroicons",
-    "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "name": "afatmustafa/blade-hugeicons",
+    "description": "A package to easily make use of Hugeicons(Free version) in your Laravel Blade views.",
+    "keywords": ["Blade", "Hugeicons", "Laravel"],
+    "homepage": "https://github.com/afatmustafa/blade-hugeicons",
     "license": "MIT",
     "authors": [
         {
-            "name": "Blade Developer"
+            "name": "Mustafa Afat",
+            "email": "mustafa@afat.me",
+            "homepage": "https://afat.me",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -20,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "Afatmustafa\\HugeIcons\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "Afatmustafa\\HugeIcons\\BladeHugeIconsServiceProvider"
             ]
         }
     },

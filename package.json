@@ -1,6 +1,7 @@
 {
   "private": true,
-  "dependencies": {
-    "heroicons": "^1.0.1"
+  "devDependencies": {
+    "heroicons": "^1.0.1",
+    "hugeicons-react": "^0.2.0"
   }
 }
