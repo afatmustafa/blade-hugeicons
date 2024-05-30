@@ -14,13 +14,13 @@ A package to easily make use of [Hugeicons](https://hugeicons.com/)(Free version
 
 For a full list of available icons see [the SVG directory](resources/svg) or preview them at [hugeicons.com](https://hugeicons.com/).
 
-> **Note**  
+> **Note**
 > This package only includes the Hugeicons's free set, for more please visit the link. [Hugeicons Pro](https://hugeicons.com/pricing)
 
 
 ## Requirements
 
-- PHP 8.2 or higher
+- PHP 8.1 or higher
 - Laravel 10.0 or higher
 
 ## Installation
