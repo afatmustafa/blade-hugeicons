@@ -4,3 +4,5 @@ vendor/
 composer.lock
 phpunit.xml
 package-lock.json
+convert-icons.js
+config/generation.php
