@@ -5,6 +5,16 @@ All notable changes to `blade-hugeicons` will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.2
+### Added New 137 Icons
+- Updated `@hugeicons/react` from v0.4.0 to v1.0.5
+- Updated `@hugeicons/core-free-icons` from v1.0.11 to v1.0.14
+- Added 137 new icons to the collection
+- All new icons are now available for use in your Laravel Blade templates
+
+## v1.0.1
+### Laravel 12 Support
+
 ## v1.0.0
 ### Added New 235 Icons
 - Updated `@hugeicons/react` from v0.3.0 to v1.0.4
