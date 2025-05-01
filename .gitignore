@@ -7,3 +7,4 @@ package-lock.json
 convert-icons.js
 config/generation.php
 generate-icons.mjs
+bun.lock
