@@ -61,6 +61,20 @@ And even use inline styles:
 <x-hugeicons-youtube style="color: #555"/>
 ```
 
+You can also customize the icon's stroke-width in several ways
+
+```blade
+<x-hugeicons-youtube stroke-width="1.5"/>
+<x-hugeicons-youtube class="stroke-2"/>
+<x-hugeicons-youtube style="stroke-width: 2px"/>
+```
+
+Also, any standard SVG attributes can be used as well, making it easy to control size, color, stroke style, and more
+
+```blade
+<x-hugeicons-youtube stroke-width="1.5" width="24" height="24" color="red" stroke-linecap="round"/>
+```
+
 ### Raw SVG Icons
 
 If you want to use the raw SVG icons as assets, you can publish them using:
