@@ -1,8 +1,8 @@
 {
   "private": true,
   "devDependencies": {
-    "@hugeicons/core-free-icons": "^1.2.1",
-    "@hugeicons/react": "^1.1.4",
+    "@hugeicons/core-free-icons": "^4.0.0",
+    "@hugeicons/react": "^1.1.6",
     "fs": "^0.0.1-security",
     "heroicons": "^1.0.6",
     "path": "^0.12.7"
