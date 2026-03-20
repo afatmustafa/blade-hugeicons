@@ -7,10 +7,11 @@ namespace Tests;
 use Afatmustafa\HugeIcons\BladeHugeIconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use Orchestra\Testbench\TestCase;
+use PHPUnit\Framework\Attributes\Test;
 
 class CompilesIconsTest extends TestCase
 {
-    /** @test */
+    #[Test]
     public function it_compiles_a_single_anonymous_component()
     {
         $result = svg('hugeicons-abacus')->toHtml();
@@ -23,7 +24,7 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    /** @test */
+    #[Test]
     public function it_can_add_classes_to_icons()
     {
         $result = svg('hugeicons-abacus', 'w-6 h-6 text-gray-500')->toHtml();
@@ -35,7 +36,7 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    /** @test */
+    #[Test]
     public function it_can_add_styles_to_icons()
     {
         $result = svg('hugeicons-abacus', ['style' => 'color: #555'])->toHtml();
