@@ -5,6 +5,26 @@ All notable changes to `blade-hugeicons` will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v2.0.0 - 2025-03-20
+
+### Added
+
+- **548** new SVG icons, generated from `@hugeicons/core-free-icons` **^4.0.0**
+- **Laravel 13** support via `illuminate/support` **^13.0** and `orchestra/testbench` **^11.0** (dev)
+
+### Changed
+
+- Upgraded icon source from `@hugeicons/core-free-icons` v1.2.1 to **^4.0.0** and `@hugeicons/react` v1.1.4 to **^1.1.6**
+- GitHub Actions test matrix: **PHP 8.3–8.5** × **Laravel 12–13**; `actions/checkout` updated to **v6**
+
+### Fixed
+
+- PHPUnit 12: replace deprecated `/** @test */` docblocks with `#[Test]` attributes in the test suite
+
+### Notes
+
+- This release aligns the published icon set with **Hugeicons Free v4**. If you upgrade from v1.x of this package, verify Blade `svg('hugeicons-…')` names against [`resources/svg`](resources/svg); upstream renames or removals can affect existing views.
+
 ## v1.0.3
 
 ### Added New 751 Icons
