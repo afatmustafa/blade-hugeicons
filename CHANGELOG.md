@@ -5,6 +5,22 @@ All notable changes to `blade-hugeicons` will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v2.0.1 - 2025-03-21
+
+### Fixed
+
+- Packaged SVGs now include full Hugeicons v4 path data (stroke, stroke-width, and related attributes from `@hugeicons/core-free-icons`) so icons render with visible strokes instead of appearing blank.
+- Root `<svg>` elements now include `fill="none"` so stroke-style icons do not render with an unintended solid fill on closed paths.
+
+### Changed
+
+- Regenerated all SVG assets under [`resources/svg`](resources/svg) to match the corrected export.
+
+### Added
+
+- **`V4IconSvgRenderTest`:** asserts file parity with Blade `svg()`, root `fill="none"`, drawable paths, optional container stroke checks, and class/style injection for sample icons (`container`, `abacus`, `youtube`, `add-female`).
+- **`CompilesIconsTest` / `NewIconsTest`:** expected markup loaded from `resources/svg` instead of huge inline strings.
+
 ## v2.0.0 - 2025-03-20
 
 ### Added
