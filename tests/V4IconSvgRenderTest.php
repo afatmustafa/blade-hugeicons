@@ -11,9 +11,7 @@ use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 
 /**
- * Ensures Hugeicons v4 generated SVGs render visibly: root fill="none", paths carry stroke/fill.
- *
- * @see generate-icons.mjs
+ * Ensures Hugeicons v4 packaged SVGs render visibly: root fill="none", paths carry stroke/fill.
  */
 final class V4IconSvgRenderTest extends TestCase
 {
