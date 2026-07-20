@@ -10,12 +10,12 @@
     <img src="https://img.shields.io/packagist/dt/afatmustafa/blade-hugeicons" alt="Total Downloads">
 </a>
 
-A package to easily make use of [Hugeicons](https://hugeicons.com/)(Free version) in your Laravel Blade views.
+A package to easily make use of [Hugeicons](https://hugeicons.com/) (Free version) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [hugeicons.com](https://hugeicons.com/).
+The package currently includes 6,200 SVG icons sourced from `@hugeicons/core-free-icons` v4.2.2. For the full list, see [the SVG directory](resources/svg) or preview the icons at [hugeicons.com](https://hugeicons.com/).
 
 > **Note**
-> This package only includes the Hugeicons's free set, for more please visit the link. [Hugeicons Pro](https://hugeicons.com/pricing)
+> This package only includes the free Hugeicons set. For additional icons, see [Hugeicons Pro](https://hugeicons.com/pricing).
 
 
 ## Requirements
@@ -35,7 +35,7 @@ Blade Hugeicons uses Blade Icons under the hood. Please refer to [the Blade Icon
 
 ## Configuration
 
-Blade Heroicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-hugeicons.php` config file:
+Blade Hugeicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-hugeicons.php` config file:
 
 ```bash
 php artisan vendor:publish --tag=blade-hugeicons-config

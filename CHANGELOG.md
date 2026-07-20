@@ -5,6 +5,18 @@ All notable changes to `blade-hugeicons` will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Added
+
+- **377** new SVG icons, bringing the bundled free icon set to **6,200** icons.
+
+### Changed
+
+- Updated `@hugeicons/core-free-icons` from **^4.0.0** to **^4.2.2**.
+- Updated `@hugeicons/react` from **^1.1.6** to **^1.1.9**.
+- Updated the README with the current icon count and Hugeicons source version.
+
 ## v2.0.1 - 2025-03-21
 
 ### Fixed
