@@ -15,7 +15,7 @@ A package to easily make use of [Hugeicons](https://hugeicons.com/) (Free versio
 The package currently includes 6,200 SVG icons sourced from `@hugeicons/core-free-icons` v4.2.2. For the full list, see [the SVG directory](resources/svg) or preview the icons at [hugeicons.com](https://hugeicons.com/).
 
 > **Note**
-> This package only includes the free Hugeicons set. For additional icons, see [Hugeicons Pro](https://hugeicons.com/pricing).
+> This package only includes the free Hugeicons set. For additional icons, see [Hugeicons Pro](https://hugeicons.com?via=afat).
 
 
 ## Requirements

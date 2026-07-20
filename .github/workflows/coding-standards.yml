@@ -4,4 +4,6 @@ on: [push]
 
 jobs:
   lint:
+    permissions:
+      contents: write
     uses: laravel/.github/.github/workflows/coding-standards.yml@main
