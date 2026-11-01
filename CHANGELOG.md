@@ -5,6 +5,20 @@ All notable changes to `blade-hugeicons` will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v2.1.0 - 2026-11-01
+
+### Added
+
+- **639** new SVG icons, bringing the bundled free icon set to **6,839** icons.
+
+### Changed
+
+- Updated `@hugeicons/core-free-icons` from **^4.2.2** to **^4.4.0**.
+- Updated `@hugeicons/react` from **^1.1.9** to **^1.1.10**.
+- Regenerated existing SVGs with `--force`; **1,676** icons have updated artwork from upstream.
+- Kept **56** icons that are no longer exported upstream (e.g. `clock-1`, `calendar-1`, `heading-1`) so existing views keep working; their newer equivalents (e.g. `clock-hour-1`, `calendar-date-1`) are now included.
+- Updated the README files with the current icon count and Hugeicons source version.
+
 ## v2.0.2 - 2026-07-20
 
 ### Added
