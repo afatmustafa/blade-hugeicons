@@ -14,7 +14,7 @@
 
 Un paquete para utilizar fácilmente [Hugeicons](https://hugeicons.com/) (versión gratuita) en tus vistas de Laravel Blade.
 
-El paquete incluye actualmente 6.200 iconos SVG obtenidos de `@hugeicons/core-free-icons` v4.2.2. Para ver la lista completa, consulta [el directorio SVG](resources/svg) o previsualiza los iconos en [hugeicons.com](https://hugeicons.com/).
+El paquete incluye actualmente 6.839 iconos SVG obtenidos de `@hugeicons/core-free-icons` v4.4.0. Para ver la lista completa, consulta [el directorio SVG](resources/svg) o previsualiza los iconos en [hugeicons.com](https://hugeicons.com/).
 
 > **Nota**
 > Este paquete solo incluye el conjunto gratuito de Hugeicons. Para iconos adicionales, consulta [Hugeicons Pro](https://hugeicons.com?via=afat).
